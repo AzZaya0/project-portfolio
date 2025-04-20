@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Css from "./hero.module.css";
 import model from "../../assets/images/image 17.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 export class Hero extends Component {
