@@ -1,0 +1,29 @@
+.navBar {
+  display: flex;
+  height: 66px;
+  margin: 25px 10px;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.navBar a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px 20px;
+  font-family: 'Montserrat',sans-serif;
+}
+.navBar img {
+  height: 40px;
+}
+.btn-contact {
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  color: black !important;
+}
