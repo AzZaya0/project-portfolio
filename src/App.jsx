@@ -1,6 +1,8 @@
 import './App.css'
 import {Navbar} from './components/nav/Navbar'
 import {Hero}from "./components/hero/Hero"
+import{Herodown} from "./components/herodown/Herodown"
+import{Aboutme} from "./components/aboutme/Aboutme"
 function App() {
 
 
@@ -8,6 +10,8 @@ function App() {
     <>
     <Navbar/>
     <Hero/>
+    <Herodown/>
+    <Aboutme/>
     </>
   )
 }

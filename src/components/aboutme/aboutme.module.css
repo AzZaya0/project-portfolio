@@ -1,0 +1,69 @@
+.about {
+  background-color: #d7d7d7;
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.about-me {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 50px;
+}
+.about-me h1 {
+  border: 6px solid black;
+  font-family: "Montserrat";
+  letter-spacing: 7px;
+  font-size: 30px;
+  padding: 15px 45px;
+  margin-bottom: 50px;
+  font-weight: 900;
+}
+.about-me p {
+  font-family: "Open Sans";
+}
+.about-me h2 {
+  font-size: 15px;
+  margin-top: 50px;
+  border-right-style: solid;
+  border-left-style: solid;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.about-me img {
+  margin-top: 100px;
+}
+.aboutme-box {
+  width: 65%;
+  margin: 100px 0px 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-card {
+  width: 400px;
+  text-align: left;
+  margin-left: 40px;
+}
+.about-card h1 {
+  font-size: 22px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  margin: 20px 0px;
+}
+.about-card p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+.about-bottom-img{
+    margin: 100px 0px;
+}
