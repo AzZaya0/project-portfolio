@@ -1,0 +1,50 @@
+.skills{
+    background-color:#d7d7d7 ;
+display: flex; 
+/* justify-content: center; */
+align-items: center;
+height:200px;
+flex-direction: column;
+}
+.skills h1{
+    color: black;
+ font-family: "Montserrat";
+ border: 6px solid black;
+ padding: 5px 60px 5px 60px;
+ font-size: 30px;
+ letter-spacing: 5px;
+}
+.skills div{
+    width: 55%;
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    
+}
+.block1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: #D7D7D7;
+
+}
+.block{
+background-color:#d7d7d7 ;
+/* height: 100vh; */
+display: flex;
+width: 50%;
+/* border: 1px solid red; */
+flex-wrap: wrap;
+gap: 100px;
+justify-content: center;
+
+}
+.skills-images{
+   /* margin: 10px; */
+}
+
+.skills-images p{
+ margin-top: 15px;
+ font-size: 24px;
+}
