@@ -59,3 +59,8 @@
   justify-items: center;
   align-content: center;
 }
+@media (max-width: 1220px) {
+  .right-bg{
+    display: none;
+  }
+}

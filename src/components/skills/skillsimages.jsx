@@ -1,15 +1,15 @@
-import React from 'react'
-import Css from "./skills.module.css"
-function skillsimages({images, skillsname}) {
+import React from "react";
+import Css from "./skills.module.css";
+function skillsimages({ images, skillsname }) {
   return (
- <>
- <div className={Css["skills-images"]}>
-<img src={images} alt="" />
+    <>
+      <div className={Css["skills-images"]}>
+        <img src={images} alt="" />
 
-<p>{skillsname}</p>
- </div>
- </>
-  )
+        <p>{skillsname}</p>
+      </div>
+    </>
+  );
 }
 
-export default skillsimages
+export default skillsimages;

@@ -3,8 +3,11 @@ import Css from "./hero.module.css";
 import model from "../../assets/images/image 17.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 export class Hero extends Component {
   render() {
@@ -33,6 +36,9 @@ export class Hero extends Component {
                 <FontAwesomeIcon icon={faLinkedin} size="1x" />
               </div>
             </a>
+          </div>
+          <div className={Css["mobile-nav"]}>
+            
           </div>
         </div>
       </>

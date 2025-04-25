@@ -5,15 +5,16 @@ import HtmlImage from "../../assets/svg/html.svg";
 import CssImage from "../../assets/svg/css.svg";
 import sass from "../../assets/svg/sass.svg";
 import Java from "../../assets/svg/JAVA.svg";
-import My  from "../../assets/svg/react img.svg"
-import Bootstrap from "../../assets/svg/Bootstrap.svg"
-import Git from "../../assets/svg/git.svg"
-import Figma from "../../assets/images/figma.png"
+import My from "../../assets/svg/react img.svg";
+import Bootstrap from "../../assets/svg/Bootstrap.svg";
+import Git from "../../assets/svg/git.svg";
+import Figma from "../../assets/images/figma.png";
 export class Skills extends Component {
   render() {
     return (
       <>
-        <div className={Css["skills"]}>
+      <div className={Css["skills-section"]}>
+      <div className={Css["skills"]}>
           <h1>Skills</h1>
           <div>
             <h2>Using Now:</h2>
@@ -31,6 +32,7 @@ export class Skills extends Component {
             <Skillsimages skillsname="FIGMA" images={Figma} />
           </div>
         </div>
+      </div>
       </>
     );
   }
