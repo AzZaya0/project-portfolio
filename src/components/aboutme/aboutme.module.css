@@ -66,4 +66,14 @@
 }
 .about-bottom-img{
     margin: 100px 0px;
+
+}
+.maintainance{
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  width: 63%;
+
 }

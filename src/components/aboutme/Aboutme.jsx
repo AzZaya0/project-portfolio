@@ -30,11 +30,13 @@ export class Aboutme extends Component {
               body="I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job."
             />
           </div>
+          <div className={Css["maintainance"]}>
           <AboutCard
             title="MAINTENANCE"
             body="I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job."
           />
-          <img className={Css["about-bottom-img"]}   src={Logo} alt="" />
+          </div>
+          <img className={Css["about-bottom-img"]} src={Logo} alt="" />
         </div>
       </>
     );

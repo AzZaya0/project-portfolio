@@ -1,3 +1,6 @@
+.none {
+  display: none;
+}
 .navBar {
   display: flex;
   height: 66px;
@@ -9,14 +12,14 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 10;
+  z-index: 5;
 }
 .navBar a {
   color: white;
   text-decoration: none;
   font-size: 17px;
   margin: 0px 20px;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .navBar img {
   height: 40px;
@@ -26,4 +29,94 @@
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
   color: black !important;
+}
+.mobile-nav {
+  /* border: 1px solid red; */
+  display: none;
+}
+
+.slider {
+  right: 0;
+  position: fixed;
+  z-index: 10;
+  color: white;
+  width: 0%;
+  height: 100%;
+  background-color: rgb(151, 151, 151);
+  animation: sliderAnimation 500ms ease-in forwards;
+  /* justify-content: center;
+  display: flex; */
+}
+.btnNav {
+  position: absolute;
+  right: 48px;
+  z-index: 11;
+  top: 40px;
+}
+
+.navContaints {
+  display: flex;
+  height: inherit;
+  width: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navContaints button {
+  width: 100%;   
+  max-width: 400px;   /* Optional: limit maximum width if needed */
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 0;    /* Padding only top-bottom (no left-right) */
+  margin: 10px ;     /* Margin top-bottom only */
+  background-color: rgb(206, 206, 206);
+
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center; /* Center text inside button */
+  /* transition: background-color 0.3s ease; */
+  animation:navContaintsExpand 1s ease-in forwards ;
+}
+
+
+
+@keyframes sliderAnimation {
+  0% {
+    width: -100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes navContaintsExpand {
+  0% {
+    /* transform: scaleX(0); */
+    filter: opacity(0);
+  }
+  40% {
+    filter: opacity(0);
+  }
+  100% {
+    /* transform: scaleX(1); */
+    filter: opacity(1);
+  }
+}
+
+@media (max-width: 869px) {
+  .navBar .nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media (min-width: 869px) {
+  .slider {
+    display: none;
+  }
 }
